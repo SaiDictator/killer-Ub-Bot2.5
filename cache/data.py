@@ -205,13 +205,13 @@ RAID = [
 ]
 
 
-GRP = "@Heart_Connection|@Heart_Connection"
+GRP = "@UDAAN2024_CHAT|@UDAAN2024_CHAT"
 
-GROUP = [-1001985992318]
+GROUP = [-1001943038314]
 
 VERIFIED_USERS =  [6068930098]
 
-Owners = "@Heart_Connection|@Heart_Connection"
+Owners = "@DE1D_KILLER|@DE1D_KILLER"
 
 
 PORM = [
