@@ -151,7 +151,7 @@ async def pat(client: Client, message: Message):
 
 @Client.on_message(filters.command("pikachu", ".") & filters.me)
 async def pikachu(client: Client, message: Message):
-    hmm_s = "https://telegra.ph//file/c88ecea0265fee80aaf30.mp4"
+    hmm_s = "https://telegra.ph/file/1551756fb77b7777642dd.mp4"
     r = requests.get(url=hmm_s).json()
     image_s = r["link"]
     await client.send_video(message.chat.id, image_s)
@@ -340,7 +340,7 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [☆ 🇨Ⓞ𝗗𝜩🇽 ☆](https://te.legra.ph/file/ebc3fc421b8776e29ad98.mp4) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆](https://telegra.ph/file/1551756fb77b7777642dd.mp4) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
     if message.forward_from:
         return
