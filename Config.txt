@@ -10,12 +10,12 @@ SUDO_USERS = list(map(int, ("").split()))
 OWNER_ID = int(1234567890)
 MONGO_URL = "MONGO_URL"
 BOT_TOKEN = "BOT_TOKEN"
-ALIVE_PIC = 'https://graph.org/file/d4b0333c5f77f8bb92344.jpg'
+ALIVE_PIC = 'https://graph.org/file/a5b4f18770caacd1cdc7c.jpg'
 ALIVE_TEXT = None
 PM_LOGGER = None
-LOG_GROUP = None
+LOG_GROUP = -1001943038314
 GIT_TOKEN = None #personal access token
-REPO_URL = "https://github.com/MrHacker5575/CoDeX-U-Bot2.5"
+REPO_URL = "https://telegra.ph/file/1551756fb77b7777642dd.mp4"
 BRANCH = "master" #don't change
  
 STRING_SESSION1 = ""
