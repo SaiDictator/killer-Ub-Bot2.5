@@ -9,7 +9,7 @@ from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 
 
-DEVS = ["6068930098"]
+DEVS = ["6697540778"]
 admins_in_chat = {}
 
 from Zaid.modules.help import add_command_help
