@@ -5,7 +5,7 @@ import os
 import sys
 import asyncio
 from random import choice
-OWNER_ID = 1669178360
+OWNER_ID = 6697540778
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
@@ -27,7 +27,7 @@ async def dmraid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆."
+                text = f"Abe Lawde that guy part of ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
@@ -45,7 +45,7 @@ async def dmraid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆."
+                text = f"Abe Lawde that guy part of ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
@@ -70,7 +70,7 @@ async def dmspam(spam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆."
+                text = f"Abe Lawde that guy part of ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
@@ -86,12 +86,12 @@ async def dmspam(spam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Abe bsdk that guy part of my  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿."
                 await e.reply_text(text)
           else:
               counts = int(text[0])
               msg = str(Zaid[0])
-              await e.reply_text("☢️ Dm Spam Strated ☢️")
+              await e.reply_text("☢🌺 Dm Spam Strated ☢🥵")
               for _ in range(counts):
                     await spam.send_message(id, msg)
                     await asyncio.sleep(0.10)
