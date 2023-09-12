@@ -226,7 +226,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: ☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Deploy Update is in Progress...`"
+            "`[HEROKU]: ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆-Userbot Deploy Update is in Progress...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -243,7 +243,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Successfully Updated! Userbot can be used again.`"
+            "`☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆-Userbot Successfully Updated! Userbot can be used again.`"
         )
     else:
         try:
@@ -252,7 +252,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Successfully Updated! Userbot can be used again.`",
+            "`☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆-Userbot Successfully Updated! Userbot can be used again.`",
         )
         args = [sys.executable, "-m", "Zaid"]
         execle(sys.executable, *args, environ)
@@ -319,7 +319,7 @@ async def updatees(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "To see a list of the latest updates from ☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot."],
+        ["update", "To see a list of the latest updates from ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆-Userbot."],
         ["update deploy", "To update userbot."],
     ],
 )
