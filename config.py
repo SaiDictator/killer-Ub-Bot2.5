@@ -13,12 +13,12 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6123932615").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/e061928cc09bbadbc7bd8.jpg')
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/a5b4f18770caacd1cdc7c.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/MrHacker5575/CoDeX-U-Bot2.5")
+REPO_URL = getenv("REPO_URL", "https://telegra.ph/file/1551756fb77b7777642dd.mp4")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
