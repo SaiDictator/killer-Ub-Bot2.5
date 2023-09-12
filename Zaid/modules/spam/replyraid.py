@@ -78,9 +78,9 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆"
+                text = f"Abe Lawde that guy part of ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆"
                 await e.reply_text(text)
-          else:
+      se:
               fname = ok.first_name
               mention = f"[{fname}](tg://user?id={id})"
               for _ in range(counts):
@@ -105,7 +105,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆."
+                text = f"Abe Lawde that guy part of ☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
