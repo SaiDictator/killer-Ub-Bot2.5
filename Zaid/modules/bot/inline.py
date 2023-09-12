@@ -64,7 +64,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://graph.org/file/48523385d5140ef166d6b.jpg",
+            thumb_url="https://graph.org/file/a5b4f18770caacd1cdc7c.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -82,7 +82,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://graph.org/file/48523385d5140ef166d6b.jpg",
+            thumb_url="https://graph.org/file/a5b4f18770caacd1cdc7c.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
