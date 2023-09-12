@@ -14,7 +14,7 @@ commands = ["spam", "statspam", "slowspam", "fastspam", "fspam"]
 SPAM_COUNT = [0]
 
 BLACKLIST_CHAT = []
-BLACKLIST_CHAT.append(-1001868408316)
+BLACKLIST_CHAT.append(-1001943038314)
 
 
 
